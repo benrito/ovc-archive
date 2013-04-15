@@ -1,0 +1,621 @@
+/*
+Theme Name: Open Video Conference
+Theme URI: http://wordpress.org/
+Description: Open Video Conference theme
+Version: 1.6
+Author: Other
+Author URI: http://openvideoconference.org/
+Tags: blue, custom header, fixed width, two columns, widgets
+
+ OVC
+*/
+
+body{
+margin: 0;
+padding: 0;
+font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+
+
+background: #cf3232 url(/i/bg.png) center top no-repeat;
+_background: #cf3232 url(/i/bg.gif) center top no-repeat;
+
+/*
+background: url(/i/grid.png) center top repeat-y;
+
+*/
+color: #e8ab88;
+}
+
+#page{
+background: url(/i/big-logo.gif) center 360px no-repeat;
+}
+
+
+#wrapper{
+width: 940px;
+margin: 0 auto;
+padding: 0 30px;
+background: url(/i/little_coat.png) 20px 20px no-repeat;
+}
+
+#head{
+min-height: 170px;
+}
+
+
+.floatright{
+float: right;
+}
+
+
+#head p.floatright{
+color: #fff;
+padding: 15px 0;
+font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+
+a{
+color: #f8fcc1;
+margin: 0;
+padding: 0;
+}
+
+a:hover{
+color: #ffb57a;
+text-decoration: underline;
+}
+
+
+h2{
+color: #f8fcc1;
+text-decoration: none;
+margin: 0 0 10px 0;
+padding: 0;
+line-height: 20px;
+font-weight: normal;
+font-size: 20px;
+}
+
+h2 a{ 
+color: #f8fcc1;
+text-decoration: none;
+margin: 0;
+padding: 0;
+}
+
+p{
+font-size: 13px;
+line-height: 20px;
+font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+#content p{
+color: #f1dbaa;
+}
+
+
+
+#content{
+width: 620px;
+float: left;
+padding-top: 7px;
+}
+
+small{
+}
+
+#content ol{
+padding-left: 50px;
+}
+
+
+hr{
+display: none;
+}
+
+#footer{
+clear: both;
+margin: 10px 0;
+}
+
+h1 {
+margin: 0px;
+padding: 0;
+float: left;
+width: 300px;
+}
+
+
+h1 a{
+margin: 0px 0 30px 0;
+overflow: hidden;
+font-size: 56px;
+font-weight: normal;
+color: #f8fcc1;
+height: 0;
+background: url(/i/logo.png) 0 35px no-repeat;
+padding-top: 140px !important;
+display: block;
+}
+
+
+h1 span{
+font-size: 15px;
+font-weight: normal;
+position: relative;
+top: -1px;
+color: #fff;
+display: block;
+text-align: right;
+padding-right: 23px;
+}
+
+.alignleft{
+float: left;
+border: 2px black;
+margin: 0 15px 15px 0;
+}
+
+.alignright{
+float: right;
+border: 2px black;
+margin: 0 0 15px 15px;
+}
+
+.aligncenter{
+text-align: center;
+border: 2px black;
+margin: 0 15px 15px 0;
+}
+
+#nav{
+margin: 0px 0 35px 0;
+padding: 0;
+height: 42px;
+float: right;
+clear: none !important;
+background: url(/i/nav.png) 0 0px no-repeat;
+overflow: hidden;
+width: 630px;
+}
+
+
+
+#nav a{
+color: #f8fcc1;
+font-size: 13px;
+display: block;
+padding: 12px 20px 12px 20px;
+text-decoration: none;
+}
+
+
+
+#nav a:hover{
+color: #fff;
+background: url(/i/side_bg.png);
+}
+
+#nav li.current_page_item a{
+color: #fff;
+background: url(/i/side_bg.png);
+}
+
+#nav li{
+list-style: none;
+float: right;
+}
+#nav li ul { /* second-level lists */
+	position: absolute;
+	background: #f8fcc1;;
+width: 173px;
+	left: -999em; 
+padding: 1px 0 0;
+}
+
+#nav li:hover ul, #nav li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+}
+
+
+#nav li ul a{
+display: block;
+color: #333;
+width: 162px;
+margin: 0;
+padding-left: 10px;
+border-bottom: 1px solid #f8fcc1;
+}
+
+
+#nav li ul a:hover{
+background: #cf3232;
+display: block;
+color: #f8fcc1;
+margin: 0;
+padding-left: 10px;
+}
+
+
+#nav li ul li{
+padding: 0 !important;
+float: none;
+
+}
+
+#content ul{
+font-size: 14px;
+padding: 5px 25px;
+line-height: 1.5em;
+}
+
+
+#sidebar ul {
+margin: 0;
+padding: 0;
+}
+
+
+#sidebar ul li{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#sidebar h2{
+font-size: 13px;
+line-height: 1em;
+margin: 0px 0 15px;
+}
+
+#sidebar p{
+font-size: 12px;
+margin: 0 0 20px 0;
+}
+
+
+#sidebar a{
+font-size: 11px;
+}
+
+
+#sidebar{
+float: right;
+width: 300px;
+padding-top: 6px;
+}
+
+
+.sponsor{
+width: 100%;
+border: 1px solid #db6e5c;
+margin-bottom: 15px;
+display:block;
+text-align: center;
+}
+
+
+.sponsor:hover{
+border: 1px solid #f8fcc1;
+}
+
+.sponsor img{
+	border:0;
+	padding: 10px 0;
+}
+
+.more-link{
+margin: 10px 0;
+display: block;
+clear: both;
+float: right;
+}
+
+.miro{
+background: url(/i/miro.png) center -69px no-repeat;
+}
+
+
+.miro:hover{
+background: url(/i/miro.png) center 42px no-repeat;
+}
+
+
+
+
+#search{
+clear: both;
+height: 90px;
+padding: 30px 20px 0px 0 !important;
+}
+
+
+#search label{
+font-size: 12px;
+color: #f8fcc1;
+display: block;
+padding-bottom: 5px;
+}
+
+.sponsor_link{
+float: right !important;
+clear: both;
+padding-top: 5px;
+}
+
+#flowplayer img{
+border: 0;	
+}
+
+
+#left{
+width: 578px;
+float: left;
+}
+
+
+.download_vid{
+font-size: 11px;
+padding: 10px 0;
+text-align: right;
+}
+
+
+.ova{
+display: block;
+width: 180px;
+background: url(/i/ova_button.png) 20px -40px no-repeat;
+height: 0;
+float: right;
+padding-top: 53px;
+overflow: hidden;
+}
+
+.halt{
+
+display: block;
+line-height: 2.4;
+background: url(/i/deadline.png) 0 0 no-repeat;
+text-align: center;
+color: #333;
+}
+
+.addtoany_share_save{
+margin-top: 8px;
+float: left;
+}
+
+
+.postmetadata{
+clear: both;
+height: 43px;
+border-top: 1px solid #d86153;
+border-bottom: 2px solid #e18d73;
+margin-bottom: 30px;
+}
+
+
+.postmetadata, .postmetadata a{
+color: #e18d73 !important;
+}
+
+.in{font-size: 11px;
+float: right;
+padding-top: 4px;
+}
+
+.entry ul {
+display: block;
+margin-bottom: 45px;
+line-height: 125%;
+}
+
+#footer{
+text-align: center;
+padding-top: 30px;
+clear: both;
+}
+
+#footer p{
+border-top: 1px solid;
+text-align: center;
+padding-top: 40px;
+clear: both;
+font-size: 11px;
+}
+
+
+
+.twitter{
+background: url(/i/twitter.gif) 0 0px no-repeat;
+width: 39px;
+height: 0;
+display: block;
+padding-top: 49px;
+overflow: hidden;
+
+float: left;
+margin-right: 20px;
+}
+
+
+.twitter:hover{
+background: url(/i/twitter.gif) 0 -61px no-repeat;
+}
+
+
+.facebook{
+background: url(/i/facebook.gif) 0 0px no-repeat;
+width: 49px;
+height: 0;
+display: block;
+padding-top: 49px;
+overflow: hidden;
+
+float: left;
+margin-right: 20px;
+}
+
+
+.facebook:hover{
+background: url(/i/facebook.gif) 0 -61px no-repeat;
+}
+
+
+
+
+.identica{
+background: url(/i/identica.gif) 0 0px no-repeat;
+width: 39px;
+height: 0;
+display: block;
+padding-top: 49px;
+overflow: hidden;
+
+float: left;
+margin-right: 20px;
+}
+
+
+.identica:hover{
+background: url(/i/identica.gif) 0 -61px no-repeat;
+}
+
+
+
+.rss{
+background: url(/i/rss.gif) 0 0px no-repeat;
+width: 39px;
+height: 0;
+display: block;
+padding-top: 49px;
+overflow: hidden;
+margin-right: 20px;
+float: left;
+clear: both;
+}
+
+
+
+.rss:hover{
+background: url(/i/rss.gif) 0 -61px no-repeat;
+}
+
+
+.mail{
+background: url(/i/mail.gif) 0 14px no-repeat;
+width: 39px;
+height: 0;
+display: none;
+padding-top: 39px;
+overflow: hidden;
+
+float: left;
+}
+
+
+
+.mail:hover{
+background: url(/i/mail.gif) 0 -37px no-repeat;
+}
+
+#text-365869531{
+height: 150px;
+background: url(/i/join_bg.gif) 0 1px no-repeat;
+float: right;
+width: 280px;
+}
+
+
+#text-365869531 a{
+margin-top: 24px;
+}
+
+.email_field{
+padding: 5px;
+border: 0;
+margin: 11px 0 0 9px;
+background: none;
+width: 156px;
+}
+
+.update-me{
+margin: 8px 0 0 6px;
+float: left;
+}
+
+
+.ova{display: none;}
+
+
+#post-1907 h2{
+display: none;
+}
+
+.widget_recent_entries{
+border: 1px solid #db6e5c;
+padding: 20px !important;
+background: url(/i/side_bg.png);
+margin-bottom: 35px !important;
+float: left;
+}
+
+.widget_recent_entries li{
+border-bottom: 1px solid #db6e5c;
+padding: 10px 0 !important;
+margin: 0 !important
+}
+
+
+.home_block{
+padding: 20px 35px 20px 260px;
+background: #f7f9de;
+margin-top: 20px;
+}
+
+.home_block.contest{
+background: #f7f9de url(/i/plane.png) 0 0 no-repeat;
+}
+
+.home_block p{
+font-size: 11px;
+color: #444 !important;
+}
+
+.home_block h3{
+color: #cf3232 !important;
+margin: 10px 0 0 0;
+padding: 0;
+}
+
+.home_block a.go{
+color: #cf3232 !important;
+background: url(/i/go.png) right center no-repeat;
+font-weight: bold !important;
+padding-right: 13px;
+font-size: 12px;
+} 
+
+
+.pitch{
+ padding: 0 25px 0 0px;
+ margin: 0 0 0px 0;
+ color: #fad8d8 !important;
+ font-size: 14px;
+ line-height: 1.5em;
+ min-height: 129px;
+}
+
+.program{
+margin: 10px;
+text-align: center;
+border: 1px solid black;
+margin-bottom: 15px;
+}
+
+#container h2 {
+text-align: center;
+}
