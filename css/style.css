@@ -16,8 +16,7 @@ padding: 0;
 font-family: "Century Gothic", Arial, Helvetica, sans-serif;
 
 
-background: #cf3232 url(/i/bg.png) center top no-repeat;
-_background: #cf3232 url(/i/bg.gif) center top no-repeat;
+background: #cf3232 url(../img/bg.png) center top no-repeat;
 
 /*
 background: url(/i/grid.png) center top repeat-y;
